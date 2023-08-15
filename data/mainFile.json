@@ -1,0 +1,141 @@
+[
+    {
+        "id": "1",
+        "name": "Web App",
+        "src": [
+            {
+                "cat": "Web App",
+                "title": "QR Code Generator",
+                "img": " ../../../public/js/1-min.png",
+                "link": "https://ruddro420.github.io/qr-code-generator/"
+            },
+            {
+                "cat": "Web App",
+                "title": "IQ Hunter",
+                "img": " ../../../public/js/2-min.png",
+                "link": "https://iqhunter.techitrick.com/"
+            },
+            {
+                "cat": "Web App",
+                "title": "Password Generator",
+                "img": " ../../../public/js/3-min.png",
+                "link": "https://passgen.techitrick.com/"
+            },
+            {
+                "cat": "Web App",
+                "title": "Multiplication Hub",
+                "img": " ../../../public/js/4-min.png",
+                "link": "https://multiplication.techitrick.com/"
+            },
+            {
+                "cat": "Web App",
+                "title": "Pin Match",
+                "img": " ../../../public/js/5-min.png",
+                "link": "https://ruddro420.github.io/JsDomPinMatchProject/"
+            },
+            {
+                "cat": "Web App",
+                "title": "Word Count",
+                "img": " ../../../public/js/6-min.png",
+                "link": "https://ruddro420.github.io/js-dom-word-count/"
+            },
+            {
+                "cat": "Web App",
+                "title": "Virtual Bank",
+                "img": " ../../../public/js/7-min.png",
+                "link": "https://ruddro420.github.io/JsDomBankProject/main.html"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "React",
+        "src": [
+            {
+                "cat": "React",
+                "title": "Text Sentiment",
+                "img": " ../../../public/react/1-min.png",
+                "link": "https://dreamy-gingersnap-974c62.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Recipe Search",
+                "img": " ../../../public/react/2-min.png",
+                "link": "https://dancing-marigold-1b38c9.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Guide Of Future",
+                "img": " ../../../public/react/3-min.png",
+                "link": "https://fluffy-alfajores-b1096f.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Curd Operation",
+                "img": " ../../../public/react/4-min.png",
+                "link": "https://capable-crumble-58dd9a.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Todos ",
+                "img": " ../../../public/react/5-min.png",
+                "link": "https://funny-tanuki-522a68.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Gig Sell ",
+                "img": " ../../../public/react/6-min.png",
+                "link": "https://clinquant-alfajores-8f1f99.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Open Mind ",
+                "img": " ../../../public/react/7-min.png",
+                "link": "https://beautiful-banoffee-0f5171.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "React Quiz ",
+                "img": " ../../../public/react/8-min.png",
+                "link": "https://celadon-crepe-9c71c8.netlify.app/"
+            },
+            {
+                "cat": "React",
+                "title": "Food Cart ",
+                "img": " ../../../public/react/9-min.png",
+                "link": "https://inquisitive-swan-b09492.netlify.app/"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Laravel",
+        "src": [
+            {
+                "cat": "Laravel",
+                "title": "Inventory Management System",
+                "img": " ../../../public/laravel/1-min.png"
+            },
+            {
+                "cat": "Laravel",
+                "title": "Digital Health Care System",
+                "img": " ../../../public/laravel/2-min.png"
+            },
+            {
+                "cat": "Laravel",
+                "title": "Cover Page Generator",
+                "img": " ../../../public/laravel/3-min.png"
+            },
+            {
+                "cat": "Laravel",
+                "title": "Digital Present System",
+                "img": " ../../../public/laravel/4-min.png"
+            },
+            {
+                "cat": "Laravel",
+                "title": "Dynamic Portfolio Website",
+                "img": " ../../../public/laravel/5-min.png"
+            }
+        ]
+    }
+]
