@@ -365,4 +365,8 @@ li > a {
     margin-left: 5%;
     margin-right: 5%;
   }
+  .w-full {
+    width: 100%;
+    background: white!important;
+}
 }
