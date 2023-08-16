@@ -11,9 +11,7 @@ const WorkShow = () => {
                     <div className="working-category">
                         <div className="list-category">
                             <ul>
-                                <li>
-                                    <a href="#">Template</a>
-                                </li>
+                                
                                 <li>
                                     <a href="#">Web Apps</a>
                                 </li>
@@ -22,9 +20,6 @@ const WorkShow = () => {
                                 </li>
                                 <li>
                                     <a href="#">Laravel</a>
-                                </li>
-                                <li>
-                                    <a href="#">WordPress</a>
                                 </li>
                             </ul>
                         </div>

@@ -1,0 +1,38 @@
+[
+    {
+        "cat": "Web App",
+        "title": "QR Code Generator",
+        "img": " ../../../public/js/1-min.png",
+        "link": "https://ruddro420.github.io/qr-code-generator/"
+    },
+    {
+        "cat": "Web App",
+        "title": "IQ Hunter",
+        "img": " ../../../public/js/2-min.png",
+        "link": "https://iqhunter.techitrick.com/"
+    },
+    {
+        "cat": "React",
+        "title": "Text Sentiment",
+        "img": " ../../../public/react/1-min.png",
+        "link": "https://dreamy-gingersnap-974c62.netlify.app/"
+    },
+    {
+        "cat": "React",
+        "title": "Guide Of Future",
+        "img": " ../../../public/react/3-min.png",
+        "link": "https://fluffy-alfajores-b1096f.netlify.app/"
+    },
+    {
+        "cat": "React",
+        "title": "Open Mind ",
+        "img": " ../../../public/react/7-min.png",
+        "link": "https://beautiful-banoffee-0f5171.netlify.app/"
+    },
+    {
+        "cat": "React",
+        "title": "Recipe Search",
+        "img": " ../../../public/react/2-min.png",
+        "link": "https://dancing-marigold-1b38c9.netlify.app/"
+    }
+]
