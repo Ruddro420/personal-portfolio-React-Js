@@ -1,22 +1,45 @@
+import HeaderNav from "./component/HeaderNav";
+import FooterMe from "./component/FooterMe";
+import AboutMe from "./component/AboutMe";
+import { Outlet, RouterProvider, ScrollRestoration, createBrowserRouter } from "react-router-dom";
+import Home from "./pages/Home";
+import SingleWork from "./pages/SingleWork";
 
-import HeaderNav from './component/HeaderNav'
-import HeroMe from './component/HeroMe'
-import FooterMe from './component/FooterMe'
-import WorkShow from './component/WorkShow'
-import AboutMe from './component/AboutMe'
-
-function App() {
-
-
+const Layout = () => {
   return (
     <>
       <HeaderNav />
-      <HeroMe />
-      <WorkShow />
+      <ScrollRestoration/>
+      <Outlet />
       <AboutMe />
       <FooterMe />
     </>
-  )
+  );
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/:id",
+        element: <SingleWork/>,
+      },
+    ],
+  },
+]);
+
+function App() {
+  return (
+    <>
+      <RouterProvider router={router}></RouterProvider>
+    </>
+  );
 }
 
-export default App
+export default App;

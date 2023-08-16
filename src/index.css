@@ -52,16 +52,16 @@ li > a {
 /* Hero Section */
 .hero-container {
   background: #111215;
-  height: 110vh;
   width: 100%;
   position: relative;
   margin-top: -80px;
   z-index: -2;
+  padding-bottom: 200px;
 }
 
 .hero-container .inner-text {
   font-size: 90px;
-  padding-top: 20%;
+  padding-top: 15%;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -144,6 +144,7 @@ li > a {
   margin: 10px;
   border-radius: 2px;
   box-shadow: 5px 5px 10px rgb(236, 228, 228);
+  cursor: pointer;
 }
 
 /* Product Container */

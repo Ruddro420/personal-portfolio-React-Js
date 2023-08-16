@@ -2,6 +2,7 @@
 import { Button, Navbar, Modal, Footer } from "flowbite-react";
 import { useState } from "react";
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
   // modal works here
@@ -22,8 +23,8 @@ const HeaderNav = () => {
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link active href="#">
-            <p>Home</p>
+          <Navbar.Link active>
+            <Link to="/">Home</Link>
           </Navbar.Link>
           <Navbar.Link href="#aboutMe">About</Navbar.Link>
           <Navbar.Link
@@ -43,7 +44,7 @@ const HeaderNav = () => {
       >
         <Modal.Header />
         <Modal.Body>
-            <h2 className="text-center text-2xl">Contact Me!</h2>
+          <h2 className="text-center text-2xl">Contact Me!</h2>
           <div className="text-center contact-icon">
             <Footer.Icon className="pl-10" href="#" icon={BsFacebook} />
             <Footer.Icon className="pl-10" href="#" icon={BsInstagram} />

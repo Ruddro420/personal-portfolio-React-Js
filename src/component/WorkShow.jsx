@@ -1,6 +1,17 @@
+import { useNavigate } from "react-router-dom";
 import Product from "./Product";
 
 const WorkShow = () => {
+    const navigate = useNavigate();
+    const technology = [
+        'JavaScript',
+        'React',
+        'Laravel'
+    ]
+    // main action
+    const routeHandler = (item) =>{
+        navigate(`/${item}`);
+    }
     return (
         <>
             <div className="workShow-container">
@@ -11,16 +22,15 @@ const WorkShow = () => {
                     <div className="working-category">
                         <div className="list-category">
                             <ul>
-                                
-                                <li>
-                                    <a href="#">Web Apps</a>
-                                </li>
-                                <li>
-                                    <a href="#">React</a>
-                                </li>
-                                <li>
-                                    <a href="#">Laravel</a>
-                                </li>
+                                {
+                                    technology.map((item,i) => {
+                                        return(
+                                            <li key={i}>
+                                            <a onClick={()=> routeHandler(item)}>{item}</a>
+                                        </li>
+                                        )
+                                    })
+                                }
                             </ul>
                         </div>
                     </div>
