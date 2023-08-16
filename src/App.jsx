@@ -5,6 +5,7 @@ import { Outlet, RouterProvider, ScrollRestoration, createBrowserRouter } from "
 import Home from "./pages/Home";
 import SingleWork from "./pages/SingleWork";
 
+
 const Layout = () => {
   return (
     <>

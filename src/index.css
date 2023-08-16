@@ -150,8 +150,8 @@ li > a {
 /* Product Container */
 
 .product-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -178,7 +178,6 @@ li > a {
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgb(236, 228, 228);
   overflow: hidden;
-  margin-bottom: 10%;
   position: relative;
   transition: 0.5s ease;
 }
@@ -248,7 +247,7 @@ li > a {
 }
 
 .inner-text p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   width: 70%;
   margin: auto;
