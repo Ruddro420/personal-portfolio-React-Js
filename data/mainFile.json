@@ -114,27 +114,26 @@
             {
                 "cat": "Laravel",
                 "title": "Inventory Management System",
-                "img": " ../../../laravel/1-min.png"
+                "img": " ../../../laravel/1-min.png",
+                "link": "https://ims.techitrick.com/"
             },
             {
                 "cat": "Laravel",
                 "title": "Digital Health Care System",
-                "img": " ../../../laravel/2-min.png"
+                "img": " ../../../laravel/2-min.png",
+                "link": "https://omds.techitrick.com/"
             },
             {
                 "cat": "Laravel",
                 "title": "Cover Page Generator",
-                "img": " ../../../laravel/3-min.png"
+                "img": " ../../../laravel/3-min.png",
+                "link": "https://pdfg.techitrick.com/"
             },
             {
                 "cat": "Laravel",
-                "title": "Digital Present System",
-                "img": " ../../../laravel/4-min.png"
-            },
-            {
-                "cat": "Laravel",
-                "title": "Dynamic Portfolio Website",
-                "img": " ../../../laravel/5-min.png"
+                "title": "Online Bidding System",
+                "img": " ../../../laravel/4-min.png",
+                "link": "https://bidding.techitrick.com/"
             }
         ]
     }

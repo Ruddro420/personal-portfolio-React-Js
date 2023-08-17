@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
-import { Button, Navbar, Modal, Footer } from "flowbite-react";
+import { Navbar, Modal, Footer } from "flowbite-react";
 import { useState } from "react";
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsInstagram, BsTelegram, BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const HeaderNav = () => {
   // modal works here
   const [openModal, setOpenModal] = useState("");
   const props = { openModal, setOpenModal };
+
   return (
     <div>
       <Navbar fluid rounded>
@@ -17,9 +18,9 @@ const HeaderNav = () => {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2 ">
-          <Button className="mobile-off-button gradient-border">
+          <a style={{ padding: '10px', borderRadius: '5px' }} target="_blank" href="https://www.fiverr.com/ruddro420" className="mobile-off-button gradient-border" rel="noreferrer">
             Get started
-          </Button>
+          </a>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
@@ -46,10 +47,11 @@ const HeaderNav = () => {
         <Modal.Body>
           <h2 className="text-center text-2xl">Contact Me!</h2>
           <div className="text-center contact-icon">
-            <Footer.Icon className="pl-10" href="#" icon={BsFacebook} />
-            <Footer.Icon className="pl-10" href="#" icon={BsInstagram} />
-            <Footer.Icon className="pl-10" href="#" icon={BsTwitter} />
-            <Footer.Icon className="pl-10" href="#" icon={BsGithub} />
+            <Footer.Icon className="pl-10" href="https://web.facebook.com/people/Ali-Fiad-Ruddro/pfbid02EFLFaw2CwNocABt2V5WRpXSUf7F1B7kZGDfE9ggjKUoPBJDW1mAkMwrDVhsj85KKl/" icon={BsFacebook} />
+            <Footer.Icon className="pl-10" href="https://www.instagram.com/ruddro420/" icon={BsInstagram} />
+            <Footer.Icon className="pl-10" href="https://twitter.com/ruddro90305488" icon={BsTwitter} />
+            <Footer.Icon className="pl-10" href="https://github.com/Ruddro420" icon={BsGithub} />
+            <Footer.Icon className="pl-10" href="https://t.me/ruddro420" icon={BsTelegram} />
           </div>
         </Modal.Body>
       </Modal>
