@@ -6,10 +6,11 @@ const WorkShow = () => {
     const technology = [
         'JavaScript',
         'React',
-        'Laravel'
+        'Laravel',
+        'WordPress'
     ]
     // main action
-    const routeHandler = (item) =>{
+    const routeHandler = (item) => {
         navigate(`/${item}`);
     }
     return (
@@ -23,11 +24,11 @@ const WorkShow = () => {
                         <div className="list-category">
                             <ul>
                                 {
-                                    technology.map((item,i) => {
-                                        return(
+                                    technology.map((item, i) => {
+                                        return (
                                             <li key={i}>
-                                            <a onClick={()=> routeHandler(item)}>{item}</a>
-                                        </li>
+                                                <a onClick={() => routeHandler(item)}>{item}</a>
+                                            </li>
                                         )
                                     })
                                 }

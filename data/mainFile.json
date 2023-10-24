@@ -136,5 +136,47 @@
                 "link": "https://bidding.techitrick.com/"
             }
         ]
+    },
+    {
+        "id": "4",
+        "name": "WordPress",
+        "src": [
+            {
+                "cat": "WordPress",
+                "title": "JUST 4 KIDS PHYSIO",
+                "img": " ../../../wordpress/1.png",
+                "link": "https://just4kidsphysio.com/"
+            },
+            {
+                "cat": "WordPress",
+                "title": "EXPLORATION. INSPIRATION. MOTIVATION",
+                "img": " ../../../wordpress/2.png",
+                "link": "http://staging.legendaryrelationship.com/"
+            },
+            {
+                "cat": "WordPress",
+                "title": "Business Core Strategies",
+                "img": " ../../../wordpress/3.png",
+                "link": "https://jadestonesolutions.com/"
+            },
+            {
+                "cat": "WordPress",
+                "title": "DE&I Protection Plan",
+                "img": " ../../../wordpress/4.png",
+                "link": "http://deiprotect.com/"
+            },
+            {
+                "cat": "WordPress",
+                "title": "ARTISTIC AESTHETIC MEDICINE",
+                "img": " ../../../wordpress/5.png",
+                "link": "https://www.drrashaclinic.com/"
+            },
+            {
+                "cat": "WordPress",
+                "title": "IT & BUSINESS SOLUTIONS",
+                "img": " ../../../wordpress/6.png",
+                "link": "https://c-jen.com/"
+            }
+        ]
     }
 ]

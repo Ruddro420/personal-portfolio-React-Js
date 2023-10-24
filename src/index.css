@@ -45,7 +45,7 @@ nav {
   color: white !important;
 }
 
-li > a {
+li>a {
   color: white !important;
 }
 
@@ -135,6 +135,7 @@ li > a {
   display: flex;
   margin-bottom: 5%;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .workShow-container .working-category li a {
@@ -195,12 +196,10 @@ li > a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 1),
-    rgb(196, 113, 237, 0.6),
-    rgb(246, 79, 89, 0.8)
-  );
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 1),
+      rgb(196, 113, 237, 0.6),
+      rgb(246, 79, 89, 0.8));
   /* Adjust the gradient colors and opacity as desired */
 }
 
@@ -228,6 +227,7 @@ li > a {
   box-shadow: 5px 5px 20px rgba(247, 247, 247, 0.1);
   margin-top: 20px;
 }
+
 .work-title {
   margin-bottom: 30px;
 }
@@ -261,6 +261,7 @@ li > a {
   justify-content: center;
   margin-left: 30px;
 }
+
 .contact-icon a {
   font-size: 20px;
 }
@@ -289,9 +290,10 @@ li > a {
     background-color: white;
   }
 
-  li > a {
+  li>a {
     color: black !important;
   }
+
   /* Product Container */
 
   .product-container {
@@ -300,9 +302,11 @@ li > a {
     justify-content: center;
     align-items: center;
   }
+
   .workShow-container h2 {
     font-size: 30px;
   }
+
   .work-container {
     margin-bottom: 5%;
     background-position: center !important;
@@ -328,24 +332,29 @@ li > a {
     position: relative;
     transition: 0.5s ease;
   }
+
   #aboutMe p {
     width: 100% !important;
     font-size: 15px !important;
     font-weight: 500;
   }
+
   .workShow-container .list-category {
     margin-top: 5% !important;
     margin-bottom: 5% !important;
     width: 100%;
     margin: auto;
   }
+
   .workShow-container {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+
   .main-product {
     margin-top: 10% !important;
   }
+
   .hero-container {
     background: #111215;
     height: auto;
@@ -355,18 +364,28 @@ li > a {
     z-index: -2;
     padding-bottom: 120px;
   }
+
   .gradient-circle {
     display: none;
   }
-  .hero-container h1{
+
+  .hero-container h1 {
     text-transform: uppercase;
   }
+
   .about-me {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .w-full {
     width: 100%;
-    background: white!important;
+    background: white !important;
+  }
 }
+
+@media(max-width:900px) {
+  .workShow-container .working-category li {
+    margin-top: 50px;
+  }
 }
